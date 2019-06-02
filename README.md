@@ -27,6 +27,7 @@ These mappings are encoded inside the FACIAL_LANDMARKS_IDXS  dictionary inside f
 Project uses below python packages:
 
 * [NumPy](http://www.numpy.org/) - A fundamental package for scientific computing with Python.
+* [Shape_predictor_68.dat](https://osdn.net/projects/sfnet_dclib/downloads/dlib/v18.10/shape_predictor_68_face_landmarks.dat.bz2/) Download the shape detector dat file and paste it into your working directory.
 * [OpenCV](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_setup/py_intro/py_intro.html) - A library of Python bindings designed to solve computer vision problems.
 * [dlib](https://pypi.python.org/pypi/dlib) - A toolkit for making real world machine learning and data analysis applications.
 * [imutils](https://pypi.python.org/pypi/imutils) - A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges, and much more easier with OpenCV and both Python 2.7 and Python 3.
@@ -43,7 +44,7 @@ Project uses below python packages:
      ```
  - Run below command to visualize the results
     ```sh
-     python detect_face_features.py --shape-predictor shape_predictor_68_face_landmarks.dat --image images/image_1.jpg
+     python detect_face_features1.py 
     ```
 
 
